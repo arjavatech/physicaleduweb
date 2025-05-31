@@ -32,7 +32,12 @@
     visibility: visible;
     opacity: 1;
 }
-
+/***image***/
+/* #staff_img
+{
+    width: px;
+    height: px;
+} */
 
 /*** Button ***/
 .btn {
@@ -596,3 +601,315 @@
 .copyright a:hover {
     color: var(--primary) !important;
 }
+.about_swami img,
+    .about_swami_img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      margin-bottom: 20px;
+    }
+
+    .bio-container, .d_about_swami {
+      background-color: #fff;
+      padding: 20px 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .bio-container h1 {
+      color: #5a2a83;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .bio-container h2 {
+      margin-top: 25px;
+      font-size: 20px;
+      color: #343a40;
+      border-bottom: 1px solid #dee2e6;
+      padding-bottom: 5px;
+    }
+
+    .read-more-btn {
+      color: #007bff;
+      cursor: pointer;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .hidden-text {
+      display: none;
+    }
+
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.bg-primary {
+    background-color: #424f99 !important;
+  }
+  .h4{
+    color: #dee2e6;
+  }
+
+.card-header {
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+}
+
+.table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.alert-link {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.list-group-item {
+    padding: 0.75rem 1.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        background-color: white;
+        color: black;
+        font-size: 12pt;
+    }
+    
+    .card {
+        border: 1px solid #dee2e6;
+        box-shadow: none;
+        page-break-inside: avoid;
+    }
+    
+    .card-header {
+        background-color: white !important;
+        color: black !important;
+        border-bottom: 2px solid #dee2e6;
+    }
+    
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+    
+    .table {
+        page-break-inside: avoid;
+    }
+    
+    .table th, .table td {
+        border: 1px solid #dee2e6;
+    }
+}
+/* General Styles academic */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+.text-center{
+    color:  #fff  ;
+}
+/* College Header Styles */
+.college-header {
+        background-color: #182668;
+     color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.college-header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.college-header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.bg-success{
+     background-color: #182668 !important;   
+}
+ .btn-success{
+    background-color: #182668 !important;   
+}
+
+/* Section Title */
+.section-title {
+    color: #1a3e72;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid  182668;
+;
+}
+
+/* Table Styles */
+.fee-table {
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+        background-color: 182668;
+;
+    color: white;
+}
+
+.table-header th {
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.fee-table tbody tr:hover {
+    background-color: #f1f5fd;
+}
+
+/* Notes Section */
+.note-title {
+    color:  182668;
+;
+    font-weight: 600;
+}
+
+.note-list {
+    padding-left: 20px;
+}
+
+.note-list li {
+    margin-bottom: 5px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .college-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .college-header p {
+        font-size: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    .fee-table th, .fee-table td {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .college-header h1 {
+        font-size: 1.3rem;
+    }
+    
+    .section-title {
+        font-size: 1.2rem;
+    }
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #0e1b53;
+;
+}
+.header {
+    background-color:#182668;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.staff-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.staff-header {
+    background-color:#182668;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
+.staff-body {
+    padding: 20px;
+}
+.staff-member {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+.staff-member:last-child {
+    border-bottom: none;
+}
+.name {
+    font-weight: 600;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+.qualification {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 5px;
+}
+.position {
+    font-weight: 500;
+    color: #28a745;
+}
+.department {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #6c757d;
+    color: #343a40;
+}
+@media (max-width: 768px) {
+    .staff-body {
+        padding: 15px;
+    }
+}
+        
+        
+       
