@@ -748,7 +748,7 @@ body {
     color: #333;
 }
 .text-center{
-    color:  #fff  ;
+    color:  #17082e  ;
 }
 /* College Header Styles */
 .college-header {
@@ -792,7 +792,7 @@ body {
 .table-header {
         background-color: 182668;
 ;
-    color: white;
+    color: rgb(20, 19, 102);
 }
 
 .table-header th {
@@ -803,6 +803,7 @@ body {
 .fee-table tbody tr:hover {
     background-color: #f1f5fd;
 }
+
 
 /* Notes Section */
 .note-title {
